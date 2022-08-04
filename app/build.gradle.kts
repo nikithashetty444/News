@@ -18,7 +18,7 @@ android {
         targetSdk = AppConfig.targetSdk
         testInstrumentationRunner = Versions.androidJUnitTest
 
-        buildConfigField("String", "API_KEY",  "\"pub_9735e38099bd96808e34c7c14b8b0c4686d2\"")
+        buildConfigField("String", "API_KEY",  "KEY")
 
         buildTypes {
             getByName("debug") {
